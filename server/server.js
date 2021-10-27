@@ -31,7 +31,6 @@ servidor.on('connection', (socket)=> {
             })
        }
 })
-  
     socket.on('error',(err)=>{
         console.log(err.message)
     })
