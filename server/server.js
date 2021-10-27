@@ -31,9 +31,7 @@ servidor.on('connection', (socket)=> {
             })
        }
 })
-
-    //cierra el canal de comunicacion
-   
+  
     socket.on('error',(err)=>{
         console.log(err.message)
     })
